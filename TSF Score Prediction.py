@@ -16,7 +16,6 @@ from sklearn import linear_model
 #Score prediction
 
 df4 = pd.read_csv('Tsf Dataset.csv', index_col=False)
-#df4.set_index('Hours', inplace=True)
 print(df4.to_markdown())
 mpt.xlabel('Study (hours/day)')
 mpt.ylabel('Score')
